@@ -5,7 +5,7 @@
 
 ## 주의 사항
 [와 ]는 현재 goto만 있고 종결 조건이 없으므로, skip으로 처리하였습니다.  
-I dealt with skip the brackets([ and ]) because there is no conditions of them.
+I dealt the brackets([ and ]) with skip because there is no conditions of them.
 
 ## 실행하기
 다음 문장을 수행하여 파이썬으로 손쉽게 한글 파일을 Lexing 합니다.  
