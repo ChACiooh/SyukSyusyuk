@@ -1,6 +1,4 @@
-#include <cstdio>
-
-using namespace std;
+#include <stdio.h>
 
 int main()
 {
@@ -9,10 +7,11 @@ int main()
     char read;
     char buf[] = "Hello, World!";
     char *bp = buf;
+    char falg;
     printf("%cp:%p %s\n", '%', bp, bp);
     while(fscanf(ifp, "%c", &read) != EOF)
     {
-        char flag = 0;
+        flag = 0;
         switch(read) {
         case '>':
             bp++;
