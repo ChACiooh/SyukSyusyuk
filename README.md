@@ -9,7 +9,7 @@ I dealt with skip the brackets([ and ]) because there is no conditions of them.
 
 ## 실행하기
 다음 문장을 수행하여 파이썬으로 손쉽게 한글 파일을 Lexing 합니다.  
-python Syuk.py  
+    python Syuk.py  
 
 그 후, Syuk.c 파일을 컴파일한 후 실행시켜 봅시다.
 
